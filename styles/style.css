@@ -186,7 +186,7 @@ nav .logo {
 .intro-images img {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
