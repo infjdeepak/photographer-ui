@@ -1,0 +1,47 @@
+$header1: 2.5rem;
+$header2: 4rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.5rem;
+$gradient: linear-gradient(
+  116.52deg,
+  rgba(198, 59, 59, 0.041),
+  rgba(66, 163, 219, 0.041)
+);
+$background-color: #262424;
+$text-color: rgb(219, 219, 219);
+
+@import "global";
+@import "intro";
+@import "about";
+
+@media screen and (max-width: 1330px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 730px) {
+  html {
+    font-size: 40%;
+  }
+  .intro-section {
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .intro-text {
+    align-self: start;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+  }
+  .intro-images {
+    grid-column: 2/3;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-image {
+    justify-content: center;
+  }
+}
