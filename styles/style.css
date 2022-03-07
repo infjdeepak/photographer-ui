@@ -174,7 +174,7 @@ nav .logo {
 
 .intro-images {
   overflow: hidden;
-margin:10rem 0;
+margin:5rem 0;
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: center;
@@ -186,8 +186,8 @@ margin:10rem 0;
 .intro-images img {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  max-width: 100%;
-  height: auto;
+  
+  height: 40rem;
 }
 
 .intro-images .img-left {
@@ -302,9 +302,9 @@ margin:10rem 0;
         grid-template-rows: 2fr 1fr;
   }
   .intro-text {
-    -ms-flex-item-align: start;
-        -ms-grid-row-align: start;
-        align-self: start;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
