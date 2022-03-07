@@ -174,7 +174,7 @@ nav .logo {
 
 .intro-images {
   overflow: hidden;
-
+margin: 2rem 0;
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: center;
@@ -187,7 +187,7 @@ nav .logo {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   
-  height: 50rem;
+  height: 60rem;
 }
 
 .intro-images .img-left {
