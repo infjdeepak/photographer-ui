@@ -174,7 +174,7 @@ nav .logo {
 
 .intro-images {
   overflow: hidden;
-  max-width: 33rem;
+
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: center;
