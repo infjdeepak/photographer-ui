@@ -184,7 +184,8 @@ nav .logo {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 4rem auto;
-  height: 50rem;
+  height: 60rem;
+border: 1px solid orange;
 }
 
 .intro-images img {
