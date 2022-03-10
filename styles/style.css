@@ -308,8 +308,8 @@ nav .logo {
   .intro-section {
     -ms-grid-columns: 5% 1fr 5%;
         grid-template-columns: 5% 1fr 5%;
-    -ms-grid-rows: 3fr 1fr;
-        grid-template-rows: 3fr 1fr;
+    -ms-grid-rows: 2fr 1fr;
+        grid-template-rows: 2fr 1fr;
   }
   .intro-text {
     -ms-flex-item-align: center;
@@ -354,7 +354,7 @@ nav .logo {
     font-size: 35%;
   }
   .intro-images {
-    max-height: 40rem;
+    max-height: 50rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
