@@ -30,7 +30,7 @@ $text-color: rgb(219, 219, 219);
   }
 
   .intro-text {
-    align-self: start;
+    align-self: center;
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
@@ -47,8 +47,6 @@ $text-color: rgb(219, 219, 219);
   }
   .about-text {
     order: 1;
-    text-align: center;
-    align-items: center;
   }
 }
 @media only screen and (max-width: 240px) {
