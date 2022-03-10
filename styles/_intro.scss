@@ -74,9 +74,8 @@ nav {
 .intro-images {
   overflow: hidden;
   height: 50rem;
-  align-self: center;
-  justify-self: center;
   display: flex;
+  justify-content: center;
 
   img {
     transition: all 0.4s ease;
