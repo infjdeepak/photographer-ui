@@ -42,6 +42,20 @@ $text-color: rgb(219, 219, 219);
     flex-direction: column;
   }
   .about-image {
+    order: 2;
     justify-content: center;
+  }
+  .about-text {
+    order: 1;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 240px) {
+  html {
+    font-size: 35%;
+  }
+  .intro-images {
+    max-height: 40rem;
   }
 }

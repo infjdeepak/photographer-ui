@@ -73,15 +73,14 @@ nav {
 }
 .intro-images {
   overflow: hidden;
-  max-width: 33rem;
+  height: 50rem;
   align-self: center;
   justify-self: center;
   display: flex;
 
   img {
     transition: all 0.4s ease;
-    width: 100%;
-    height: auto;
+    object-fit: cover;
   }
   .img-left {
     transform: translate(0%, 10%);
