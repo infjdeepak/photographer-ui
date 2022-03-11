@@ -54,6 +54,8 @@ $text-color: rgb(219, 219, 219);
     font-size: 35%;
   }
   .intro-images {
-    max-height: 40rem;
+    img {
+      max-height: 40rem;
+    }
   }
 }
