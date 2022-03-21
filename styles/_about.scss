@@ -1,5 +1,4 @@
 .about {
-  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -18,7 +17,7 @@
     max-width: 90%;
     height: auto;
     object-fit: cover;
-    object-position: center;
+    // object-position: center;
   }
 }
 .about-text {
@@ -28,9 +27,11 @@
   justify-content: space-evenly;
   h2 {
     margin: 2rem 0;
+    border-bottom: 0.5rem solid #fc5c5c;
+    width: 30%;
   }
   p {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   button {
     margin: 2rem 0;

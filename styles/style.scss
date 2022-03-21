@@ -14,6 +14,7 @@ $text-color: rgb(219, 219, 219);
 @import "global";
 @import "intro";
 @import "about";
+@import "gallery";
 
 @media screen and (max-width: 1330px) {
   html {
@@ -34,9 +35,13 @@ $text-color: rgb(219, 219, 219);
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+    border: none;
   }
   .intro-images {
     grid-column: 2/3;
+  }
+  .scrolldown {
+    display: none;
   }
   .about {
     flex-direction: column;
@@ -47,6 +52,9 @@ $text-color: rgb(219, 219, 219);
   }
   .about-text {
     order: 1;
+  }
+  .gallery-images {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
 }
 @media only screen and (max-width: 240px) {
